@@ -1072,6 +1072,78 @@ footer svg {
     display: none;
 }
 
+/* Footer city text items (replaced links) */
+.foot-cont-three > span {
+    display: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+/* ========================================
+   GEO + FAQ SEO SECTIONS
+======================================== */
+.geo-seo,
+.faq-seo {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.geo-seo .container,
+.faq-seo .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.geo-seo h2,
+.faq-seo h2 {
+    color: var(--text-primary);
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.geo-seo h3 {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin: 20px 0 10px;
+}
+
+.geo-seo p,
+.faq-item p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.geo-cities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.geo-cities span {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 8px 12px;
+    border-radius: 999px;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.faq-item {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-top: 12px;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
 .social {
     width: 100%;
     display: flex;
